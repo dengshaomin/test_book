@@ -16,7 +16,7 @@
 
 ## ANR的表现形式
 
-![](<../.gitbook/assets/image (9).png>)
+![](<../.gitbook/assets/image (109).png>)
 
 比较好奇为什么没有说Service的ANR，本篇记录就从Service启动过程源码分析发生ANR的前因后果
 

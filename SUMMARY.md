@@ -13,4 +13,7 @@
   * [CoordinatorLayout](open-project-analyze/coordinatorlayout.md)
   * [NestedScrolling](open-project-analyze/nestedscrolling.md)
   * [Tinker](open-project-analyze/tinker.md)
+* [Gradle](gradle/README.md)
+  * [琐碎知识点](gradle/suo-sui-zhi-shi-dian.md)
+  * [compileSdkVersion、minSdkVersion、targetSdkVersion](gradle/compilesdkversion-minsdkversion-targetsdkversion.md)
 * [Page 1](<README (1).md>)
