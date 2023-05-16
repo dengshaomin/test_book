@@ -8,13 +8,13 @@ retrace的工具会因是否开启R8优化而不同，如果是开发APM平台�
 
 模拟crash code，注意crash发生在line：35
 
-![](<../.gitbook/assets/image (162).png>)
+![](<../.gitbook/assets/image (263).png>)
 
 #### 未使用R8
 
 mapping文件格式
 
-![disable r8](<../.gitbook/assets/image (90).png>)
+![disable r8](../.gitbook/assets/image.png)
 
 retrace工具目录：
 
@@ -31,7 +31,7 @@ retrace.sh -verbose path-to-mapping-file [path-to-stack-trace-file]
 
 mapping文件格式
 
-![R8](<../.gitbook/assets/image (115).png>)
+![R8](<../.gitbook/assets/image (216).png>)
 
 retrace工具目录为：Library/rAndroid/sdk/cmdline-tools/latest/bin/retrace
 
@@ -39,4 +39,4 @@ retrace工具目录为：Library/rAndroid/sdk/cmdline-tools/latest/bin/retrace
 retrace path-to-mapping-file [path-to-stack-trace-file] [options] 
 ```
 
-![](<../.gitbook/assets/image (101).png>)
+![](<../.gitbook/assets/image (202).png>)

@@ -8,7 +8,7 @@
 
 mac环境下，chorme按下f12->Security->View certificate
 
-![](<../.gitbook/assets/image (103).png>)
+![](<../.gitbook/assets/image (204).png>)
 
 ### 通过在线工具获取
 
@@ -18,13 +18,13 @@ mac环境下，chorme按下f12->Security->View certificate
 openssl x509 -inform der -in demo.cer -out demo.pem
 ```
 
-![](<../.gitbook/assets/image (132).png>)
+![](<../.gitbook/assets/image (233).png>)
 
 在线转换网址：[https://www.myssl.cn/tools/downloadchain.html](https://www.myssl.cn/tools/downloadchain.html)
 
 拷贝pem证书所有内容进行转换，在指纹(sha256)点击转换成java数组
 
-![](<../.gitbook/assets/image (257).png>)
+![](<../.gitbook/assets/image (159).png>)
 
 
 
@@ -32,7 +32,7 @@ openssl x509 -inform der -in demo.cer -out demo.pem
 
 查看证书细节，拖到最后复制SHA-256
 
-![](<../.gitbook/assets/image (39).png>)
+![](<../.gitbook/assets/image (87).png>)
 
 通过一下代码将16进制的SHA-256转成byte指纹数据
 

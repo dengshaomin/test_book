@@ -6,7 +6,7 @@ description: https://www.jianshu.com/p/38015afcdb58
 
 目录
 
-![](<../.gitbook/assets/image (200).png>)
+![](<../.gitbook/assets/image (101).png>)
 
 ## 1. 基础认知
 
@@ -14,11 +14,11 @@ description: https://www.jianshu.com/p/38015afcdb58
 
 **答：点击事件（`Touch`事件）**。具体介绍如下：
 
-![](<../.gitbook/assets/image (72).png>)
+![](<../.gitbook/assets/image (98).png>)
 
 此处需要特别说明：事件列，即指从手指接触屏幕至手指离开屏幕这个过程产生的一系列事件。一般情况下，事件列都是以DOWN事件开始、UP事件结束，中间有无数的MOVE事件。
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (61).png>)
 
 #### 1.2 事件分发的本质
 
@@ -31,9 +31,9 @@ description: https://www.jianshu.com/p/38015afcdb58
 **答：Activity、ViewGroup、View**。`Android`的`UI`界面由`Activity`、`ViewGroup`、`View` 及其派生类组成\
 
 
-![](<../.gitbook/assets/image (61).png>)
+![](<../.gitbook/assets/image (34).png>)
 
-![](<../.gitbook/assets/image (22).png>)
+![](<../.gitbook/assets/image (18).png>)
 
 #### 1.4 事件分发的顺序
 
@@ -41,19 +41,19 @@ description: https://www.jianshu.com/p/38015afcdb58
 
 > 即：1个点击事件发生后，事件先传到`Activity`、再传到`ViewGroup`、最终再传到 `View`
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (22).png>)
 
 #### 1.5 事件分发过程由哪些方法协作完成？
 
 **答：dispatchTouchEvent() 、onInterceptTouchEvent()和onTouchEvent()**
 
-![](<../.gitbook/assets/image (100).png>)
+![](<../.gitbook/assets/image (200).png>)
 
 > 下文会对这3个方法进行详细介绍
 
 #### 1.6 总结
 
-![](<../.gitbook/assets/image (33).png>)
+![](<../.gitbook/assets/image (82).png>)
 
 * 至此，相信大家已经对 `Android`的事件分发有了感性的认知
 * 下面，我将详细介绍`Android`事件分发机制
@@ -179,13 +179,13 @@ Android事件分发机制首先会将点击事件传递到Activity中，具体�
 
 当一个点击事件发生时，从`Activity`的事件分发开始（`Activity.dispatchTouchEvent()`），流程总结如下：
 
-![](<../.gitbook/assets/image (32).png>)
+![](<../.gitbook/assets/image (81).png>)
 
 #### 核心方法总结
 
 主要包括：dispatchTouchEvent()、onTouchEvent() 总结如下
 
-![](<../.gitbook/assets/image (7).png>)
+![](<../.gitbook/assets/image (67).png>)
 
 那么，`ViewGroup`的`dispatchTouchEvent()`什么时候返回`true` / `false`？请继续往下看**ViewGroup事件的分发机制**
 
@@ -277,19 +277,19 @@ Android事件分发机制首先会将点击事件传递到Activity中，具体�
 
 `Android`事件分发传递到Acitivity后，总是先传递到`ViewGroup`、再传递到`View`。流程总结如下：(假设已经经过了Acitivity事件分发传递并传递到ViewGroup)
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (16).png>)
 
 #### 核心方法总结
 
 主要包括：dispatchTouchEvent()、onTouchEvent() 、onInterceptTouchEvent()总结如下
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (96).png>)
 
 #### 实例分析
 
 **1. 布局说明**
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (93).png>)
 
 **2. 测试代码**
 
@@ -522,7 +522,7 @@ public class MainActivity extends AppCompatActivity {
 
 #### 源码总结
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (23).png>)
 
 这里需要特别注意的是，`onTouch（）`的执行 先于 `onClick（）`
 
@@ -530,7 +530,7 @@ public class MainActivity extends AppCompatActivity {
 
 主要包括：dispatchTouchEvent()、onTouchEvent()
 
-![](<../.gitbook/assets/image (29).png>)
+![](<../.gitbook/assets/image (79).png>)
 
 #### 实例分析
 

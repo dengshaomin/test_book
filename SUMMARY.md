@@ -17,6 +17,7 @@
   * [琐碎知识点](gradle/suo-sui-zhi-shi-dian.md)
   * [compileSdkVersion、minSdkVersion、targetSdkVersion](gradle/compilesdkversion-minsdkversion-targetsdkversion.md)
 * [RadomTalk](radomtalk/README.md)
+  * [google auto service组件化框架](radomtalk/google-auto-service-zu-jian-hua-kuang-jia.md)
   * [Tencent Shadow接入](radomtalk/tencent-shadow-jie-ru.md)
   * [aspectj](radomtalk/aspectj.md)
   * [事件分发机制](radomtalk/shi-jian-fen-fa-ji-zhi.md)

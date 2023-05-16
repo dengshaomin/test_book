@@ -23,7 +23,7 @@ Message msg = queue.next(); //用于获取消息队列中的下一条消息
 
 该方法中会调用nativePollOnce()方法，这便是一个native方法，再通过JNI调用进入Native层，便采用了管道，比如epoll\_create/epoll\_wait/epoll\_ctl，这里通过一副图来让大家看清楚Java层与native的联系。
 
-![](<../.gitbook/assets/image (6).png>)
+![](<../.gitbook/assets/image (9).png>)
 
 流程就不细说了，直接去看代码或者我的博客 [Android消息机制2-Handler(Native层)](https://link.zhihu.com/?target=http%3A//gityuan.com/2015/12/27/handler-message-native/%23nativewake)。
 

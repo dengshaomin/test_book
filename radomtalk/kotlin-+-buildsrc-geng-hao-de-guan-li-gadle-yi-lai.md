@@ -88,7 +88,7 @@ implementation libs.rxjava
 
 ### Kotlin + buildSrc == Android Studio Autocomplete 😎 🎉
 
-![](<../.gitbook/assets/image (142).png>)
+![](<../.gitbook/assets/image (243).png>)
 
 您需要在您的项目里创建一个**buildSrc**模块，然后编写**kotlin**代码来管理依赖库，使得IDE支持自动补全。
 
@@ -101,7 +101,7 @@ implementation libs.rxjava
 1. build.gradle.kts
 2. 编写Kotlin代码的文件 (本文中是指`Dependencies.kt`)
 
-![](<../.gitbook/assets/image (117).png>)
+![](<../.gitbook/assets/image (218).png>)
 
 #### buildSrc/build.gradle.kts:
 

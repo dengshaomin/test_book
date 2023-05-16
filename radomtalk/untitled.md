@@ -20,7 +20,7 @@ app_bar.addOnOffsetChangedListener(OnOffsetChangedListener { appBarLayout, verti
 
 神奇的是这个时候release包竟然crash了
 
-![](<../.gitbook/assets/image (261).png>)
+![](<../.gitbook/assets/image (163).png>)
 
 kotlin的锅?
 

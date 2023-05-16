@@ -18,7 +18,7 @@ Facebook 通过线上及线下测试，启动速度提升 20% 以上，Dex 大�
 
 ### **1. 基于 Dex 的优化**
 
-![](<../.gitbook/assets/image (112).png>)
+![](<../.gitbook/assets/image (213).png>)
 
 ReDex 是基于 Dex 文件的字节码进行优化，从上图 Android 编译过程我们可以看出，Java 源文件经过 Java 编译器转换为 .class 文件，再转换为虚拟机字节码和三方库一起转换为 dex 文件。
 
@@ -29,7 +29,7 @@ PS：Proguard 就是基于 Java 字节码的优化。
 
 ### **2. 基于管道的优化过程设计**
 
-![](<../.gitbook/assets/image (135).png>)
+![](<../.gitbook/assets/image (236).png>)
 
 ReDex 设计时将优化过程分为不同阶段，类似污水处理分为机械处理-生物处理-深度处理等阶段，每个阶段可当做优化插件进行插拔(取舍)，并可以跟在其他不相关的阶段后面，这样的好处有：\
 (1) 方便多个优化阶段并行开发；\

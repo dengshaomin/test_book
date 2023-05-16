@@ -2,7 +2,7 @@
 
 #### 随便来一段crash代码
 
-![](<../.gitbook/assets/image (62).png>)
+![](<../.gitbook/assets/image (35).png>)
 
 留意一下这里导致crash的堆栈行号应该是第10、15行，后面retrace的时候会提到
 
@@ -177,11 +177,11 @@ google对retrace的说明：[https://developer.android.com/studio/build/shrink-c
 如果没有在 `proguard-rules.pro` 文件中添加，堆栈信息如下\
 
 
-![](<../.gitbook/assets/image (195).png>)
+![](<../.gitbook/assets/image (197).png>)
 
 通过`retrace.jar解析出来的堆栈信息行号、类名、方法名可能都不对`
 
-![](<../.gitbook/assets/image (278).png>)
+![](<../.gitbook/assets/image (181).png>)
 
 加上之后的crash stack
 
@@ -189,7 +189,7 @@ google对retrace的说明：[https://developer.android.com/studio/build/shrink-c
 
 正确解析出来的堆栈信息
 
-![](<../.gitbook/assets/image (258).png>)
+![](<../.gitbook/assets/image (160).png>)
 
 #### R8对混淆的影响
 

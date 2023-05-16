@@ -83,7 +83,7 @@ public ThreadPoolExecutor(int corePoolSize,
 \
 
 
-![](<../.gitbook/assets/image (266).png>)
+![](<../.gitbook/assets/image (168).png>)
 
 ### 示例代码
 

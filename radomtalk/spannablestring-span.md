@@ -66,7 +66,7 @@ public class MainActivity extends ActionBarActivity {
 
 ```
 
-![](<../.gitbook/assets/image (188).png>)
+![](<../.gitbook/assets/image (289).png>)
 
 ### ClickSpan
 

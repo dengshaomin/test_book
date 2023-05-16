@@ -4,7 +4,7 @@ description: 转：https://www.jianshu.com/p/266861496508
 
 # ViewPager刷新问题
 
-![](<../.gitbook/assets/image (174).png>)
+![](<../.gitbook/assets/image (275).png>)
 
 ## 一、PagerAdapter介绍
 
@@ -22,7 +22,7 @@ ListView 大家应该都很熟悉吧！ListView 一般都需要一个 Adapter �
 
 #### 官方介绍
 
-![](<../.gitbook/assets/image (275).png>)
+![](<../.gitbook/assets/image (176).png>)
 
 PageAdapter 继承自 Object，继承结构参考意义不大，那老实看文档。文档上没有提供示例代码，只是说了下要自定义 PageAdapter 需要实现下面四个方法：
 

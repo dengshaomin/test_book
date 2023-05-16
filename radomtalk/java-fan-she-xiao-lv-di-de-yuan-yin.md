@@ -6,11 +6,11 @@ description: 转：https://juejin.im/post/6844903965725818887#heading-22
 
 ## [来自掘金的讨论](https://www.zhihu.com/question/19826278)
 
-![](<../.gitbook/assets/image (148).png>)
+![](<../.gitbook/assets/image (249).png>)
 
 ## 文章概览
 
-![](<../.gitbook/assets/image (207).png>)
+![](<../.gitbook/assets/image (111).png>)
 
 我们在 Java 开发中，难免会接触到反射，而在一些框架中，反射的运用更是常见。我相信，每次提到反射，大家的第一反应一定是反射效率低，尽量少使用。\
 但是反射的效率到底低多少？反射效率低的原因在哪里？\
@@ -454,7 +454,7 @@ class Method {
 我们再回顾一下之前的流程。\
 
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../.gitbook/assets/image (25).png>)
 
 ## 二、Java 反射原理--调用反射方法
 
@@ -717,4 +717,4 @@ Method#invoke 就像是个独木桥一样，各处的反射调用都要挤过去
 
 上面就是对反射原理和反射效率低的一些分析。
 
-![](<../.gitbook/assets/image (38).png>)
+![](<../.gitbook/assets/image (86).png>)
